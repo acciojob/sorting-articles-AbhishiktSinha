@@ -19,7 +19,7 @@ function startsWithArticle(string) {
 	return string;
 }
 
-const bandsList = document.querySelector('#band');
+const bandsList = document.querySelector('#bands');
 bands.forEach((element)=> {
 	const article = document.createElement("li");
 	article.textContent = element;
